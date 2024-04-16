@@ -8,8 +8,25 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&family=Rokkitt:wght@600;700&display=swap"
       rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            sans: ["Mulish", "sans-serif"],
+            mono: ["Rokkitt", "monospace"],
+          },
+        },
+      };
+    </script>
 
     <title>Login Modal</title>
   </head>
-  <body></body>
+  <body>
+    <!--Global Container  -->
+    <div class="flex items-center justify-center min-h-screen bg-rose-50">
+      <!-- Card Container -->
+      <div
+        class="relative flex flex-col m-6 space-y-10 bg-white shadow-2xl rounded-2xl md:flex-row md:space-y-0 md:m-0"></div>
+    </div>
+  </body>
 </html>
