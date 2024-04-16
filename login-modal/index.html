@@ -74,14 +74,37 @@
           <!-- Bottom Buttons Container -->
           <div
             class="flex flex-col space-x-0 space-y-6 md:flex-row md:space-x-4 md:space-y-0">
-            <button>
-              <img src="./images/facebook.png" alt="" />
+            <button
+              class="flex items-center justify-center py-2 space-x-3 border border-gray-300 rounded shadow-sm hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 transition duration-150 md:w-1/2">
+              <img src="./images/facebook.png" alt="" class="w-9" />
               <span class="font-thin">Facebook</span>
+            </button>
+            <button
+              class="flex items-center justify-center py-2 space-x-3 border border-gray-300 rounded shadow-sm hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 transition duration-150 md:w-1/2">
+              <img src="./images/google.png" alt="" class="w-9" />
+              <span class="font-thin">Google</span>
             </button>
           </div>
         </div>
         <!-- Right Side -->
         <img src="images/image.jpg" alt="" class="w-[430px] hidden md:block" />
+
+        <!-- Close Button -->
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-6 h-6 text-black group-hover:text-gray-600"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+        </div>
       </div>
     </div>
   </body>
